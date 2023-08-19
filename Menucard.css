@@ -1,0 +1,50 @@
+
+body{
+    background-image: url(./food.jpg); 
+    width:100%;
+    height: 100vh;
+    margin:0px;
+    padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: block; */
+}
+.top{
+    color: aliceblue;
+    font-family:fantasy;
+    font-size: larger;
+    flex-wrap: wrap;
+    
+}
+#a1{
+    display:flexbox;
+    width: 400px;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px 10px;
+    border-color:aliceblue;
+    border-radius: 10px;
+    border-width: 4px;
+    min-width: none;
+    flex-direction: row-reverse;
+    /* box-decoration-break: clone; */
+    
+}
+.item p{
+    display: inline-block;
+    color: aliceblue;
+    
+}
+.food{
+    width:80%;
+    padding-left: 20px;
+}
+#a2{
+    color: aliceblue;
+    text-align: center;
+    font-family: fantasy;
+    font-size: large;
+
+    
+}
